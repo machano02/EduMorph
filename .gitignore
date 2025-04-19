@@ -1,0 +1,100 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Python packaging and distribution
+*.egg-info/
+*.egg
+dist/
+build/
+pip-wheel-metadata/
+
+# Jupyter Notebook and IDE files
+.ipynb_checkpoints/
+*.ipynb
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+pythonenv*
+
+# Environment variables and secrets
+.env
+*.env
+.env.local
+.env.development
+.env.production
+secrets.py
+credentials.json
+token.json
+*.key
+*.pem
+
+# Logs and debug files
+*.log
+logs/
+firebase-debug.log
+debug.log
+
+# Data files
+data/raw/
+data/interim/
+data/processed/
+*.csv
+*.xlsx
+*.db
+*.sqlite
+*.feather
+*.parquet
+
+# Model files and serialized data
+models/
+*.h5
+*.pkl
+*.joblib
+*.pt
+*.onnx
+*.tflite
+*.pb
+
+# Testing and coverage
+.coverage
+htmlcov/
+.pytest_cache/
+test_results/
+
+# Documentation
+docs/_build/
+_site/
+
+# Firebase and cloud services
+.firebase/
+.gcloudignore
+*.firebaserc
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+*.bak
+
+# Project-specific exclusions
+notebooks/
+experiments/
+tmp/
+temp/
